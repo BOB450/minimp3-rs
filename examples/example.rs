@@ -10,7 +10,6 @@ fn main() {
         match decoder.next_frame() {
             Ok(Frame {
                 data,
-                sample_rate,
                 channels,
                 ..
             }) => println!("Decoded {} samples", data.len() / channels),

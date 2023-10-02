@@ -3,3 +3,4 @@
 **/*.rs.bk
 *.idea
 Cargo.lock
+minimp3-sys/target/
